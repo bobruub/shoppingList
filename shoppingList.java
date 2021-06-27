@@ -19,8 +19,6 @@ public class shoppingList {
     //  e.printStackTrace();
     //}
 
-
-
     // get a date for tagging output file
     Date now = new Date();
     Calendar c = Calendar.getInstance();
