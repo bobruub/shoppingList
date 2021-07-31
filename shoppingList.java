@@ -13,11 +13,6 @@ public class shoppingList {
 
     // open data file
     File file = new File("shoppingList.csv");
-    //try {
-      //FileInputStream fis=new FileInputStream(file);
-    //} catch(Exception e){
-    //  e.printStackTrace();
-    //}
 
     // get a date for tagging output file
     Date now = new Date();
