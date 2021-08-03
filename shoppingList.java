@@ -7,9 +7,11 @@ import java.util.Date;
 public class shoppingList {
 
   public shoppingList(){
+
   }
 
   public static void main(String[] args) {
+
 
     // open data file
     File file = new File("shoppingList.csv");
