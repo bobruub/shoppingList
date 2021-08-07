@@ -14,7 +14,7 @@ public class shoppingList {
 
 
     // open data file
-    File file = new File("shoppingList.csv");
+    File file = new File("/Users/tim/Dropbox/java/shoppingList/shoppingList.csv");
 
     // get a date for tagging output file
     Date now = new Date();
@@ -44,7 +44,7 @@ public class shoppingList {
         int lineVolume = Integer.parseInt(itemsArray[1]);
         // if volume of item is greater than 0 write to file.
         if (lineVolume > 0){
-          splitLine = " [  ] - " + itemsArray[0];
+          splitLine = " [  ] - " + itemsArray[3] + " - " + itemsArray[0];
           myWriter.write(splitLine +  "\n");
           System.out.println("\t\t " + splitLine);
         }
